@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Room bots (dev)</title>
+    <style>
+      body { font: 14px/1.5 system-ui, sans-serif; margin: 24px; color: #2A3051; background: #F2F2FF; }
+      input, button { font: inherit; padding: 6px 10px; }
+      pre { background: #fff; padding: 12px; border-radius: 8px; max-height: 70vh; overflow: auto; }
+    </style>
+  </head>
+  <body>
+    <h1>Room bots</h1>
+    <p>Dev helper: joins bot trainees to a room who score every round a few seconds after it starts. Not part of the build.</p>
+    <form id="f">
+      <input id="code" placeholder="ERT-1234" required>
+      <input id="count" type="number" value="4" min="1" max="7">
+      <button>Add bots</button>
+    </form>
+    <pre id="log"></pre>
+    <script type="module" src="./bots.js"></script>
+  </body>
+</html>

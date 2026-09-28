@@ -1,0 +1,22 @@
+{
+  "name": "tamara-roleplay-room",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ERT role-play room: one trainee takes the call, the room scores them live on the Experience Recovery scorecard.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node scripts/test.mjs"
+  },
+  "dependencies": {
+    "peerjs": "^1.5.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.0.0"
+  }
+}
