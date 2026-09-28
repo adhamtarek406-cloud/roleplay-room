@@ -1,5 +1,7 @@
 # Role-play room
 
+**Live:** https://adhamtarek406-cloud.github.io/roleplay-room/
+
 The ERT role-play room, built from the Claude Design file `Roleplay Room.dc.html`. One trainee takes a practice call with the trainer, and everyone else in the room scores them live on the ERT Experience Recovery scorecard. The trainer reveals the results, then runs the next round. When the session ends, everyone sees a leaderboard.
 
 It's a static site, so there's no backend to run. **The trainer's browser hosts the room.** Trainees connect straight to it over WebRTC. The public [PeerJS](https://peerjs.com) broker only introduces the two browsers to each other. Room data travels browser-to-browser, and PeerJS's relay servers carry it only when a direct connection isn't possible.
